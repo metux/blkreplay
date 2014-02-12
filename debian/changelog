@@ -1,0 +1,5 @@
+blkreplay (1.0-30-2-precise0) precise; urgency=low
+
+  * Packaging for Ubuntu precise
+
+ -- Enrico Weigelt, metux IT service <weigelt@metux.de>  Wed, 12 Jul 2014 18:12:13 +0200

@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# export DH_VERBOSE=1
+
+clean:
+	@echo "Running clean"
+	./autogen.sh
+	dh clean
+	@echo "DONE"
+
+%:
+	@echo "Called rule. ${@}"
+	dh ${@}
+	@echo "Finished rule ${@}"
