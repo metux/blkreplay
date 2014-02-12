@@ -1,0 +1,5 @@
+blkreplay (1.0-30-2-squeeze0) squeeze; urgency=low
+
+  * Packaging for Debian squeeze
+
+ -- Enrico Weigelt, metux IT service <weigelt@metux.de>  Wed, 12 Jul 2014 20:34:13 +0100

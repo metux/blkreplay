@@ -1,0 +1,17 @@
+Source: blkreplay
+Section: utils
+Priority: extra
+Maintainer: Enrico Weigelt, metux IT service <weigelt@metux.de>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 7), libc6-dev-i386, autoconf, automake
+
+Package: blkreplay
+Architecture: any
+Pre-Depends: debconf
+Depends:  ${misc:Depends}
+Description: Block device benchmarking with recorded natural workloads
+ Using this toolkit, workloads traaces that have been recorded on real
+ production systems (using blktrace or DiskMon) can be used for block
+ device benchmarking in natural (production) conditions.
+ .
+ For more information see: http://www.blkreplay.org/
